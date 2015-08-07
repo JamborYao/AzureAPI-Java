@@ -1,0 +1,22 @@
+<VMImages xmlns="http://schemas.microsoft.com/windowsazure"
+	xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+	<VMImage>
+		<Name>buildimage-20150529-207092</Name>
+		<Label>my test</Label>
+		<Category>User</Category>
+		<OSDiskConfiguration>
+			<Name>buildimage-20150529-207092-os-2015-05-29</Name>
+			<HostCaching>ReadWrite</HostCaching>
+			<OSState>Specialized</OSState>
+			<OS>Windows</OS>
+			<MediaLink>https://portalvhdsw784b8pr7lmxj.blob.core.windows.net/vhds/buildimage-20150529-207092-os-2015-05-29.vhd</MediaLink>
+			<LogicalDiskSizeInGB>128</LogicalDiskSizeInGB>
+		</OSDiskConfiguration>
+		<DataDiskConfigurations />
+		<ServiceName>buildimage</ServiceName>
+		<DeploymentName>buildimage</DeploymentName>
+		<RoleName>buildimage</RoleName>
+		<Location>East Asia</Location>
+		<CreatedTime>2015-05-29T05:34:30.6281139Z</CreatedTime>
+	</VMImage>
+</VMImages>
