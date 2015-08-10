@@ -52,7 +52,7 @@ public class serviceBusQueue {
 	               System.out.println("Custom Property: " +
 	                   message.getProperty("MyProperty"));
 	               // Remove message from queue.
-	               System.out.println("Deleting this message.");
+	               System.out.println("Deleting this message."); //test
 	              // service.deleteMessage(resultQM.getValue());
 	           }  
 	           else  
